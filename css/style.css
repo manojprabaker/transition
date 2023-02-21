@@ -1,0 +1,39 @@
+* {
+ padding:0;
+ margin:0;
+ box-sizing:border-box;
+}
+
+.transition-area {
+	margin:100px 0px 0px 100px;
+	width:200px;
+	height:150px;
+	background-color:gray;
+	color:#fff;
+	font-size:25px;
+	font-weight:700;
+	text-align:center;
+	border-radius:10px;
+	transition:all ease 3s;
+}
+p {
+	padding-top:50px;
+}
+
+div.transition-area:hover {
+	border-radius:50%;
+	transform:scale(0.7);
+}
+
+.transition-area1 {
+	margin:50px 0px 50px 100px;
+	height:300px;
+	width:500px;
+	background-color:#7c24dd;
+	border:5px solid #fff;
+	transition: border ease 3s;
+}
+
+div.transition-area1:hover {
+	 border:50px solid #000;
+}
